@@ -7,6 +7,7 @@ import (
 
 func main() {
 
+	auth.newAuth()
 	server := server.NewServer()
 
 	err := server.ListenAndServe()
